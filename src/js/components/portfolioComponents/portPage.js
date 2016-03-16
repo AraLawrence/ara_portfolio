@@ -10,7 +10,7 @@ const PortPage = React.createClass({
       <div className="port-page-body page-body">
         <PortTab data={this.props.data.tab} />
         <div className="port-page-img">
-           <img src={this.props.data.gif}/>
+           <img src={this.props.data.gif} alt="Gif of project"/>
         </div>
         <div className="port-page-desc">
           <p>{this.props.data.text}</p>
@@ -20,7 +20,7 @@ const PortPage = React.createClass({
           <h1><i className="fa fa-github-alt"></i><a href={this.props.data.links[3]} target="_blank">{this.props.data.links[2]}</a></h1>
         </div>
         <div className="arrow">
-          <Link to="/portfolio"><img src="./assets/images/arrow.png"/></Link>
+          <Link to="/portfolio"><img src="./assets/images/arrow.png" alt="Outline of arrow"/></Link>
         </div>
       </div>
     );

@@ -25,7 +25,7 @@ const Portfolio = React.createClass({
           </div>
         </div>
         <div className="port-img">
-          <img src="./assets/images/folder.png" />
+          <img src="./assets/images/folder.png" alt="Outline of folder with cat inside" />
         </div>
       </div>
     );

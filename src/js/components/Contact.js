@@ -42,10 +42,11 @@ const Contact = React.createClass({
             <h1>Send me a message!</h1>
           </div>
           <div className="contact-img">
-            <img src="./assets/images/letter.png" />
+            <img src="./assets/images/letter.png" alt="Outline of letters being loaded into a rocketship"/>
           </div>
           <form>
-            <textarea value={this.state.value} onChange={this.handleChange}></textarea>
+            <label for="messages">Message</label>
+            <textarea value={this.state.value} onChange={this.handleChange} id="messages"></textarea>
               <div style={{backgroundColor: this.state.background}}
               onClick={this.handleClick} className={this.state.buttonClass + " submit-btn"}>
                 <div className={this.state.textClass}>{this.state.buttonText}</div>

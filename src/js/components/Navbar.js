@@ -7,7 +7,7 @@ const Navbar = React.createClass({
     return (
       <div style={style} className="navbar">
         <div className="logo">
-          <Link to="/"><img src="./assets/images/logo.png" /></Link>
+          <Link to="/"><img src="./assets/images/logo.png" alt="Ara logo"/></Link>
         </div>
         <div className="links">
           <div className="svg-contain left">

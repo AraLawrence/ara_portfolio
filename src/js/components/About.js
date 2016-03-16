@@ -26,7 +26,7 @@ const About = React.createClass({
           </div>
         </div>
         <div className="about-img">
-          <img src="./assets/images/space.png" />
+          <img src="./assets/images/space.png" alt="Outline of the space needle"/>
         </div>
       </div>
     );
