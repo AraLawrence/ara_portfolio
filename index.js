@@ -16,6 +16,13 @@ var transporter = nodemailer.createTransport({
   }
 });
 
+app.use(function (req, res, next) {
+    res.setHeader('Access-Control-Allow-Origin', 'http://www.aralawrence.com/');
+    res.setHeader('Access-Control-Allow-Methods', 'GET, POST');
+    res.setHeader('Access-Control-Allow-Headers', 'X-Requested-With,content-type');
+    next();
+});
+
 
 app.post('/email', function(req, res) {
     console.log(req.body);
@@ -38,7 +45,7 @@ app.post('/email', function(req, res) {
     res.send("nothing to see here");
 });
 
-app.get('/*', function(req, res) {  
+app.get('/*', function(req, res) {
   res.sendFile(path.join(__dirname, 'dest/index.html'));
 });
 
