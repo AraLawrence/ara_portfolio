@@ -6,8 +6,8 @@ module.exports = {
   output: {
     path: __dirname,
     filename: 'bundle.js',
-    publicPath: '/dest/'
-    // publicPath: "https://aqueous-bastion-25399.herokuapp.com/"
+    // publicPath: '/dest/'
+    publicPath: "https://aqueous-bastion-25399.herokuapp.com/"
   },
   plugins: [
   new webpack.DefinePlugin({
