@@ -39,6 +39,7 @@ app.post('/email', function(req, res) {
 });
 
 app.get('/*', function(req, res) {
+  console.log(process.env.MAILGUN_PASS);
   res.sendFile(path.join(__dirname, 'dest/index.html'));
 });
 
