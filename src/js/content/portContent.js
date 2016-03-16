@@ -2,7 +2,7 @@ var content = {
   unvo: {
     tab: {title: "Unvo", text: "anonymous friend convo with Node.js and Socket.io", color: "#7e57c2"},
     gif: "./assets/images/unvo.gif",
-    text: "Unvo was my first full stack project. It's a chatroom in which groups can chat in private rooms with their friends, but each person's identity is anonymous. The idea is that you know the people in your room are your friends, but you don't know exactly who's saying what. The primary technologies I used to create this were Node.JS, Express, Socket.io, and PostgreSQL.",
+    text: "Unvo was my first full stack project, and I created it in order to gain experience with websockets. It's a chatroom in which groups can chat in private rooms with their friends, but each person's identity is anonymous. The idea is that you know the people in your room are your friends, but you don't know exactly who's saying what. The primary technologies I used in the site were Node.JS, Express, Socket.io, and PostgreSQL.",
     links: ["unvo.co", "http://www.unvo.co", "github.com/AraLawrence/unvo", "https://github.com/AraLawrence/unvo"]
   },
   lost: {
@@ -20,7 +20,7 @@ var content = {
   river: {
     tab: {title: "River", text: "React and Flux to create streams by term", color: "#84BBD4"},
     gif: "./assets/images/river.gif",
-    text: "River was my final project for a Web Development Immersive course at General Assembly. It is a site in which a user types in a term, then the site hits a series of apis on an interval and displays as a stream through the screen different things that might be returned related to this term (such as books, wikipedia articles, and images). It was built using React along with Flux architecture, Node.JS, Express, and MongoDB.",
+    text: "River was my final project for a Web Development Immersive course at General Assembly, and I made it in order to gain experience with React and Flux architecture. It is a site in which a user types in a term, then the site hits a series of apis on an interval and displays as a stream through the screen different things that might be returned related to this term (such as books, wikipedia articles, and images). It was built using React/Flux, Node.JS, Express, and MongoDB.",
     links: ["riverstream.herokuapp.com", "https://riverstream.herokuapp.com/", "github.com/AraLawrence/river", "https://github.com/AraLawrence/river"]
   }
 };

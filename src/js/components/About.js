@@ -15,7 +15,7 @@ const About = React.createClass({
           <div className="about-content">
             <p>What you may not have known is that before
             before becoming a  web developer I held positions as
-            varied as welder, pastor, and educator. </p>
+            varied as welder, program director, and educator. </p>
             <p>This past has allowed me to develop excellent
             interpersonal sensibilities, and an aptitude
             for abstract reasoning and creativity.</p>

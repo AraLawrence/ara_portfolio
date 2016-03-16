@@ -38,8 +38,7 @@ app.post('/email', function(req, res) {
     res.send("nothing to see here");
 });
 
-app.get('/*', function(req, res) {
-  console.log(process.env.MAILGUN_PASS);
+app.get('/*', function(req, res) {  
   res.sendFile(path.join(__dirname, 'dest/index.html'));
 });
 
