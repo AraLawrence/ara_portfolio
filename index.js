@@ -11,7 +11,7 @@ app.use(bodyParser.urlencoded({extended: false}));
 var transporter = nodemailer.createTransport({
   service: 'Mailgun',
   auth: {
-    user: "postmaster@sandbox38f38f1a8503430abcb483bedb87c289.mailgun.org",
+    user: "postmaster@mg.aralawrence.com",
     pass: process.env.MAILGUN_PASS
   }
 });
