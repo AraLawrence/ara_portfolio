@@ -50,9 +50,9 @@ const Story = React.createClass({
   }
 });
 
-const River = React.createClass({
+const Clowder = React.createClass({
   render() {
-    return (<PortPage data={portContent.river}/>)
+    return (<PortPage data={portContent.clowder}/>)
   }
 });
 
@@ -65,7 +65,7 @@ render((
       <Route path="portfolio/unvo" component={Unvo}/>
       <Route path="portfolio/get-lost" component={Lost}/>
       <Route path="portfolio/story-engine" component={Story}/>
-      <Route path="portfolio/river" component={River}/>
+      <Route path="portfolio/clowder" component={Clowder}/>
       <Route path="contact" component={Contact}/>
     </Route>
   </Router>

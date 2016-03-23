@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router'
 
 var isSafari = Object.prototype.toString.call(window.HTMLElement).indexOf('Constructor') > 0;
-console.log(isSafari);
 
 const Navbar = React.createClass({
   render() {

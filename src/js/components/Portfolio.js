@@ -10,7 +10,7 @@ const Portfolio = React.createClass({
     let unvo = {title: "Unvo", text: "anonymous friend convo with Node.js and Socket.io", color: "#7e57c2"};
     let lost = {title: "Get Lost", text: "404 redirects for fun with Django", color: "#FF1CC9"};
     let story = {title: "Story Engine", text: "storytelling engine powered by React and jQuery animations", color: "white"};
-    let river = {title: "River", text: "React and Flux to create streams by term", color: "#84BBD4"};
+    let river = {title: "Clowder", text: "Rails/React multi location event tracker", color: "#911146"};
     return (
       <div style={pageStyle, portStyle} className="page-body">
         <div className="port-head">
@@ -21,7 +21,7 @@ const Portfolio = React.createClass({
           <Link to="portfolio/get-lost"><PortTab data={lost} /></Link>
           <div className="lower-port-body">
             <Link to="portfolio/story-engine"><PortTab data={story} /></Link>
-            <Link to="portfolio/river"><PortTab data={river} /></Link>
+            <Link to="portfolio/clowder"><PortTab data={river} /></Link>
           </div>
         </div>
         <div className="port-img">

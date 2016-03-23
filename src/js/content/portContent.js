@@ -17,11 +17,11 @@ var content = {
     text: "Story Engine was the first site I created with React, and I continue to work on it. I intended it to be a site that helps a user tell a story publicly. As the user types the site responds to certain words and changes the display based on the word, such as turning the background grey on 'rain', or printing 'stress' several times across the top of the screen when the user types 'stress'. It is entirely frontend, and built using React, ES6, and jQuery animations.",
     links: ["aralawrence.github.io/story_engine", "http://aralawrence.github.io/story_engine", "github.com/AraLawrence/story_engine", "https://github.com/AraLawrence/story_engine"]
   },
-  river: {
-    tab: {title: "River", text: "React and Flux to create streams by term", color: "#84BBD4"},
-    gif: "./assets/images/river.gif",
-    text: "River was my final project for a Web Development Immersive course at General Assembly, and I made it in order to gain experience with React and Flux architecture. It is a site in which a user types in a term, then the site hits a series of apis on an interval and displays as a stream through the screen different things that might be returned related to this term (such as books, wikipedia articles, and images). It was built using React/Flux, Node.JS, Express, and MongoDB.",
-    links: ["riverstream.herokuapp.com", "https://riverstream.herokuapp.com/", "github.com/AraLawrence/river", "https://github.com/AraLawrence/river"]
+  clowder: {
+    tab: {title: "Clowder", text: "Rails/React multi location event tracker", color: "#911146;"},
+    gif: "./assets/images/clowder.png",
+    text: "Clowder is an app I worked on with a team of three other people at Facebook Seattle's Women Student Hackathon. It's an app intened to track multi location social events, like bar crawls or field trips, and allow people to remain updated on where their group is. We created it as a Rails webapp over 16 hours, and won 'Most Technical' for the project. In an effort to gain experience with React Native and Rails 5, I am now continuing to build it out as a React Native app, utilizing an api built from Rails 5.",
+    links: ["coming soon(ish)", "/#/portfolio/clowder", "github.com/AraLawrence/clowder", "https://github.com/AraLawrence/clowder"]
   }
 };
 
