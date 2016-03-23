@@ -21,7 +21,7 @@ var content = {
     tab: {title: "Clowder", text: "Rails/React multi location event tracker", color: "#911146;"},
     gif: "./assets/images/clowder.png",
     text: "Clowder is an app I worked on with a team of three other people at Facebook Seattle's Women Student Hackathon. It's an app intened to track multi location social events, like bar crawls or field trips, and allow people to remain updated on where their group is. We created it as a Rails webapp over 16 hours, and won 'Most Technical' for the project. In an effort to gain experience with React Native and Rails 5, I am now continuing to build it out as a React Native app, utilizing an api built from Rails 5.",
-    links: ["coming soon(ish)", "/#/portfolio/clowder", "github.com/AraLawrence/clowder", "https://github.com/AraLawrence/clowder"]
+    links: ["coming soon(ish)", "https://github.com/AraLawrence/clowder", "github.com/AraLawrence/clowder", "https://github.com/AraLawrence/clowder"]
   }
 };
 
