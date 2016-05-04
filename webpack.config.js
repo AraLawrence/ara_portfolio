@@ -6,8 +6,8 @@ module.exports = {
   output: {
     path: __dirname,
     filename: 'bundle.js',
-    publicPath: '/dest/'
-    // publicPath: "http://www.aralawrence.com/"
+    // publicPath: '/dest/'
+    publicPath: "http://www.aralawrence.com/"
 
   },
   plugins: [
