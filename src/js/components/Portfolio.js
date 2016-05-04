@@ -7,9 +7,10 @@ const Portfolio = React.createClass({
   render() {
     let pageStyle = require('../../styles/pageStyles.sass');
     let portStyle = require('../../styles/portStyle.sass');
+    // TODO allow these to draw from portContent.js and name them correctly
     let unvo = {title: "Unvo", text: "anonymous friend convo with Node.js and Socket.io", color: "#7e57c2"};
-    let lost = {title: "Get Lost", text: "404 redirects for fun with Django", color: "#FF1CC9"};
-    let story = {title: "Story Engine", text: "storytelling engine powered by React and jQuery animations", color: "white"};
+    let lost = {title: "Pennypost", text: "Full stack work on Node/Angular app", color: "#00D5A5"};
+    let story = {title: "ChoiceMap", text: "Collaborative work on frontend and API development", color: "#cccccc"};
     let river = {title: "Clowder", text: "Rails/React multi location event tracker", color: "#911146"};
     return (
       <div style={pageStyle, portStyle} className="page-body">

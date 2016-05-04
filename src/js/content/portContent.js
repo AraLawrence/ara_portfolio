@@ -6,16 +6,16 @@ var content = {
     links: ["unvo.co", "http://www.unvo.co", "github.com/AraLawrence/unvo", "https://github.com/AraLawrence/unvo"]
   },
   lost: {
-    tab: {title: "Get Lost", text: "404 redirects for fun with Django", color: "#FF1CC9"},
-    gif: "./assets/images/get-lost.gif",
-    text: "Get Lost is a Django app that redirects people to random 404 pages. It's primary technologies are Django, jQuery, Bower, Postgres, and SASS. When a user clicks the 'safely' button, the site randomly selects from one of the 500 most popular sites in the U.S., then appends a string to the url to draw a 404 error. Same with the 'dangerously' button (possibly NSFW), with the difference being it selects randomly from sites ranked 501-50000.",
-    links: ["not-found.herokuapp.com", "https://not-found.herokuapp.com/", "github.com/AraLawrence/get_lost", "https://github.com/AraLawrence/get_lost"]
+    tab: {title: "Pennypost", text: "Full stack work on Node/Angular app", color: "#00D5A5"},
+    gif: "./assets/images/pennypost.png",
+    text: "On Pennypost I did full stack development on their webapp (coming soon), collaborating with a team of several developers. On the backend, I worked on integrating Instagram and Stripe APIs and enabling those to communicate effectively with the client. On the frontend, I worked particularly in leveraging specific aspects of AngularJS to enable features like lazy loading/infinite scrolling.",
+    links: ["pennypost.me", "http://www.pennypost.me/", "", ""]
   },
   story: {
-    tab: {title: "Story Engine", text: "storytelling engine powered by React and jQuery animations", color: "white"},
-    gif: "./assets/images/story.gif",
-    text: "Story Engine was the first site I created with React, and I continue to work on it. I intended it to be a site that helps a user tell a story publicly. As the user types the site responds to certain words and changes the display based on the word, such as turning the background grey on 'rain', or printing 'stress' several times across the top of the screen when the user types 'stress'. It is entirely frontend, and built using React, ES6, and jQuery animations.",
-    links: ["aralawrence.github.io/story_engine", "http://aralawrence.github.io/story_engine", "github.com/AraLawrence/story_engine", "https://github.com/AraLawrence/story_engine"]
+    tab: {title: "ChoiceMap", text: "Collaborative work on frontend and API development", color: "#cccccc"},
+    gif: "./assets/images/choicemap.gif",
+    text: "ChoiceMap first asked me to execute a rebuild of their website. For this I worked off of provided comps, and collaborated on some design aspects. I then built the website entirely using HTML/CSS and JavaScript. I was later asked to assist on some backend tasks for their app, wherein I gained significant experience in collaborating on API development.",
+    links: ["choicemap.co", "http://choicemap.co/", "", ""]
   },
   clowder: {
     tab: {title: "Clowder", text: "Rails/React multi location event tracker", color: "#911146;"},
