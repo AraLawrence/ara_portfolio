@@ -2,9 +2,9 @@ import React from 'react';
 
 const PortTab = React.createClass({
   render() {
-    let title = this.props.data.title;
-    let text = this.props.data.text;
-    let color = this.props.data.color;
+    let title = this.props.data.tab.title;
+    let text = this.props.data.tab.text;
+    let color = this.props.data.tab.color;
     let style = require('../../../styles/portComponentStyles/portTabStyle.sass');
     return (
       <div className="port-tab" style={style}>

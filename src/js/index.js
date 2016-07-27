@@ -34,25 +34,25 @@ const App = React.createClass({
 
 const Unvo = React.createClass({
   render() {
-    return (<PortPage data={portContent.unvo}/>)
+    return (<PortPage data={portContent.opencar}/>)
   }
 });
 
 const Lost = React.createClass({
   render() {
-    return (<PortPage data={portContent.lost}/>)
+    return (<PortPage data={portContent.pennypost}/>)
   }
 });
 
 const Story = React.createClass({
   render() {
-    return (<PortPage data={portContent.story}/>)
+    return (<PortPage data={portContent.choicemap}/>)
   }
 });
 
 const Clowder = React.createClass({
   render() {
-    return (<PortPage data={portContent.clowder}/>)
+    return (<PortPage data={portContent.science}/>)
   }
 });
 
@@ -62,10 +62,10 @@ render((
       <IndexRoute component={IndexView} />
       <Route path="about" component={About}/>
       <Route path="portfolio" component={Portfolio}/>
-      <Route path="portfolio/unvo" component={Unvo}/>
-      <Route path="portfolio/get-lost" component={Lost}/>
-      <Route path="portfolio/story-engine" component={Story}/>
-      <Route path="portfolio/clowder" component={Clowder}/>
+      <Route path="portfolio/opencar" component={Unvo}/>
+      <Route path="portfolio/pennypost" component={Lost}/>
+      <Route path="portfolio/choicemap" component={Story}/>
+      <Route path="portfolio/science" component={Clowder}/>
       <Route path="contact" component={Contact}/>
     </Route>
   </Router>

@@ -6,10 +6,11 @@ const PortPage = React.createClass({
   // TODO refactor this when you have more time
   render() {
     let style = require('../../../styles/portComponentStyles/portPageStyle.sass');
-    if (this.props.data.links[3]) {
+
+    if (this.props.data.links[3]) {      
       return (
         <div className="port-page-body page-body">
-          <PortTab data={this.props.data.tab} />
+          <PortTab data={this.props.data} />
           <div className="port-page-img">
              <img src={this.props.data.gif} alt="Gif of project"/>
           </div>
@@ -28,7 +29,7 @@ const PortPage = React.createClass({
     } else {
       return (
         <div className="port-page-body page-body">
-          <PortTab data={this.props.data.tab} />
+          <PortTab data={this.props.data} />
           <div className="port-page-img">
              <img src={this.props.data.gif} alt="Gif of project"/>
           </div>
