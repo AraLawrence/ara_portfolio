@@ -1,0 +1,722 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"backgroun",
+				"background-color"
+			],
+			[
+				"tras",
+				"translateY"
+			],
+			[
+				"get",
+				"getByHandle"
+			],
+			[
+				"conv",
+				"conversation"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"trans",
+				"translateY"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"acc",
+				"access_token_secret"
+			],
+			[
+				"stripe",
+				"stripeToken"
+			],
+			[
+				"font",
+				"font-family"
+			],
+			[
+				"create",
+				"create_question"
+			],
+			[
+				"pub_date",
+				"pub_date__lte"
+			],
+			[
+				"assert",
+				"assertQuerysetEqual"
+			],
+			[
+				"asser",
+				"assertQuerysetEqual"
+			],
+			[
+				"Htt",
+				"HttpResponseRedirect"
+			],
+			[
+				"check",
+				"checkFunction"
+			],
+			[
+				"exc",
+				"exclamation"
+			],
+			[
+				"Animation",
+				"AnimationInstances"
+			],
+			[
+				"Ani",
+				"AnimationInstances"
+			],
+			[
+				"start",
+				"start_point"
+			],
+			[
+				"crack",
+				"crackers_amount"
+			],
+			[
+				"chees",
+				"cheese_amount"
+			],
+			[
+				"UserStrea",
+				"UserStreamsActions"
+			],
+			[
+				"React",
+				"ReactCSSTransitionGroup"
+			],
+			[
+				"action",
+				"actionType"
+			],
+			[
+				"data",
+				"data"
+			],
+			[
+				"translated",
+				"translatedGif"
+			],
+			[
+				"tran",
+				"translatedGif"
+			],
+			[
+				"stream",
+				"stream"
+			],
+			[
+				"time",
+				"time"
+			],
+			[
+				"conten",
+				"contentState"
+			],
+			[
+				"nod",
+				"node_one"
+			],
+			[
+				"node",
+				"node_two"
+			],
+			[
+				"rand",
+				"randTwo"
+			],
+			[
+				"revers",
+				"reverseThing"
+			],
+			[
+				"Airpla",
+				"AirplaneSchema"
+			],
+			[
+				"User",
+				"UserSchema"
+			],
+			[
+				"user",
+				"user"
+			],
+			[
+				"segment",
+				"segment_params"
+			],
+			[
+				"event",
+				"event_params"
+			],
+			[
+				"backgr",
+				"backgroundColor"
+			],
+			[
+				"creature",
+				"creature_params"
+			],
+			[
+				"my",
+				"my_other_pet"
+			],
+			[
+				"breed",
+				"breed"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"contact",
+				"contact"
+			],
+			[
+				"p",
+				"peopleController"
+			],
+			[
+				"det",
+				"determineInterval"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"ba",
+				"background-color"
+			],
+			[
+				"ani",
+				"animateIn"
+			],
+			[
+				"child",
+				"child"
+			],
+			[
+				"two",
+				"two-two"
+			],
+			[
+				"getItemsBy",
+				"getItemsByBrand"
+			],
+			[
+				"getItems",
+				"getItemsByAuthor"
+			],
+			[
+				"getI",
+				"getItemsByBrand"
+			],
+			[
+				"names",
+				"names"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"last_filter": "file",
+		"selected_items":
+		[
+			[
+				"file",
+				"FileDiffs: Menu"
+			],
+			[
+				"install",
+				"Package Control: Install Package"
+			],
+			[
+				"sass",
+				"Set Syntax: Sass"
+			],
+			[
+				"sa",
+				"Set Syntax: Sass"
+			],
+			[
+				"java",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"Snippet: ",
+				"Snippet: bs3-icon"
+			],
+			[
+				"ruby",
+				"Set Syntax: Ruby"
+			],
+			[
+				"erb",
+				"Set Syntax: ERB"
+			],
+			[
+				"htm",
+				"Set Syntax: HTML"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"coffee",
+				"Set Syntax: CoffeeScript"
+			],
+			[
+				"css",
+				"Set Syntax: CSS"
+			],
+			[
+				"json",
+				"Set Syntax: JSON"
+			],
+			[
+				"ja",
+				"Set Syntax: JavaScript"
+			],
+			[
+				"install ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 593.0
+	},
+	"console":
+	{
+		"height": 66.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/AraLawrence/Code/pennypost/views/new-card.html",
+		"/Users/AraLawrence/Code/boids/boids_final.py",
+		"/Users/AraLawrence/Code/boids/boids.py",
+		"/Users/AraLawrence/Documents/WDI/unvo/static/scripts/script.js",
+		"/Users/AraLawrence/Documents/WDI/unvo/views/groups.ejs",
+		"/Users/AraLawrence/Documents/WDI/unvo/views/conv.ejs",
+		"/Users/AraLawrence/Code/choicemap/choicemap-web-1.5/css/fontawesome.min.css",
+		"/Users/AraLawrence/Code/choicemap/choicemap-web-1.5/js/jquery.min.js",
+		"/Users/AraLawrence/Code/choicemap/choicemap-web-1.5/css/testing.css",
+		"/Users/AraLawrence/Code/choicemap/choicemap-web-1.5/index.html",
+		"/Users/AraLawrence/Code/choicemap/choicemap-web-1.5/css/typography.css",
+		"/Users/AraLawrence/Documents/WDI/WDI_SEA_04_HOMEWORK/AraLawrence/week_10_weekend.md",
+		"/Users/AraLawrence/Documents/WDI/unvo/views/groupinfo.ejs",
+		"/Users/AraLawrence/Documents/WDI/unvo/controllers/groups.js",
+		"/Users/AraLawrence/Documents/WDI/unvo/controllers/conv.js",
+		"/Users/AraLawrence/Documents/WDI/unvo/views/layout.ejs",
+		"/Users/AraLawrence/Code/choicemap/choicemap-web-1.5/css/scrap.css",
+		"/Users/AraLawrence/Code/choicemap/choicemap-web-1.5/css/normalize.css",
+		"/Users/AraLawrence/Code/great_white/.gitignore",
+		"/Users/AraLawrence/Code/great_white/.env",
+		"/Users/AraLawrence/Code/great_white/config/application.yml",
+		"/Users/AraLawrence/Code/great_white/Gemfile",
+		"/Users/AraLawrence/Code/pennypost/controllers/contacts.js",
+		"/Users/AraLawrence/Code/pennypost/controllers/facebook.js",
+		"/Users/AraLawrence/Code/django_projects/get_lost/get_lost/wsgi.py",
+		"/Users/AraLawrence/Code/django_projects/get_lost/Procfile",
+		"/Users/AraLawrence/Code/django_projects/get_lost/sites/urls.py",
+		"/Users/AraLawrence/Code/django_projects/get_lost/sites/static/sites/js/main.js",
+		"/Users/AraLawrence/Code/django_projects/get_lost/sites/templates/sites/index.html",
+		"/Users/AraLawrence/Code/django_projects/get_lost/components/bower_components/font-awesome/css/font-awesome.min.css",
+		"/Users/AraLawrence/Code/django_projects/get_lost/.gitignore",
+		"/Users/AraLawrence/Code/django_projects/get_lost/sites/static/sites/style.sass",
+		"/Users/AraLawrence/Code/django_projects/get_lost/sites/static/sites/style.css",
+		"/Users/AraLawrence/Code/django_projects/get_lost/sites/models.py",
+		"/Users/AraLawrence/Code/django_projects/get_lost/get_lost/settings.py",
+		"/Users/AraLawrence/Code/django_projects/get_lost/get_lost/urls.py",
+		"/Users/AraLawrence/Code/django_projects/first_django/mysite/polls/templates/polls/detail.html",
+		"/Users/AraLawrence/Code/django_projects/first_django/mysite/polls/templates/polls/index.html",
+		"/Users/AraLawrence/Code/django_projects/first_django/mysite/polls/templates/polls/results.html",
+		"/Users/AraLawrence/Code/django_projects/first_django/mysite/polls/static/polls/style.css",
+		"/Users/AraLawrence/Code/django_projects/first_django/mysite/polls/urls.py",
+		"/Users/AraLawrence/Code/django_projects/first_django/mysite/polls/models.py",
+		"/Users/AraLawrence/Code/django_projects/first_django/mysite/polls/admin.py",
+		"/Users/AraLawrence/Code/django_projects/first_django/mysite/mysite/urls.py",
+		"/Users/AraLawrence/Code/django_projects/first_django/mysite/mysite/settings.py",
+		"/Users/AraLawrence/Documents/WDI/frontend_hackathon/bundle/main.js",
+		"/Users/AraLawrence/Documents/WDI/frontend_hackathon/lexicon.js",
+		"/Users/AraLawrence/Documents/WDI/ara_angular/app/js/app.js",
+		"/Users/AraLawrence/Documents/WDI/ara_angular/app/views/index.html",
+		"/Users/AraLawrence/Documents/WDI/ara_angular/app/index.html",
+		"/Users/AraLawrence/Documents/WDI/ara_angular/index.html",
+		"/Users/AraLawrence/Code/python_practice/ex35.py",
+		"/Users/AraLawrence/Code/python_practice/ex33.py",
+		"/Users/AraLawrence/Code/python_practice/ex32.py",
+		"/Users/AraLawrence/Code/python_practice/ex30",
+		"/Users/AraLawrence/Documents/WDI/ara_angular/js/app.js",
+		"/Users/AraLawrence/Code/python_practice/ex19.py",
+		"/Users/AraLawrence/Code/python_practice/ex18.py",
+		"/Users/AraLawrence/Code/python_practice/ex17.py",
+		"/Users/AraLawrence/Code/python_practice/test.txt",
+		"/Users/AraLawrence/Code/python_practice/ex16.py",
+		"/Users/AraLawrence/Code/python_practice/ex15.py",
+		"/Users/AraLawrence/Library/Application Support/Sublime Text 3/Packages/User/Preferences.sublime-settings",
+		"/Users/AraLawrence/Code/python_practice/ex15_sample.txt",
+		"/Users/AraLawrence/Code/python_practice/ex14.py",
+		"/Users/AraLawrence/Code/python_practice/ex13.py",
+		"/Users/AraLawrence/Code/python_practice/ex12.py",
+		"/Users/AraLawrence/Code/python_practice/ex11.py",
+		"/Users/AraLawrence/Code/python_practice/ex10.py",
+		"/Users/AraLawrence/Code/python_practice/ex9.py",
+		"/Users/AraLawrence/Code/python_practice/ex8.py",
+		"/Users/AraLawrence/Code/python_practice/ex7.py",
+		"/Users/AraLawrence/Code/python_practice/ex1.py",
+		"/Users/AraLawrence/Documents/WDI/river/controllers/apis.js",
+		"/Users/AraLawrence/Documents/WDI/river/controllers/auth.js",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/components/SearchForm.js",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/components/ResultDisplay.js",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/dispatcher/AppDispatcher.js",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/actions/StreamActions.js",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/components/ShowViews/GiphyShow.js",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/components/FooterPanel.js",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/stores/StreamStore.js",
+		"/Users/AraLawrence/Documents/WDI/river/app/css/styles.sass",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/components/StreamApp.js",
+		"/Users/AraLawrence/Documents/WDI/river/config/strategies.js",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/stores/UserStreamsStore.js",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/stores/UserStore.js",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/stores/NameStore.js",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/components/StreamName.js",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/actions/UserStreamsActions.js",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/components/ShowViews/BookShow.js",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/constants/UserStreamsConstants.js",
+		"/Users/AraLawrence/Documents/WDI/river/README.md",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/actions/UserActions.js",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/constants/StreamConstants.js",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/components/NavBar.js",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/constants/UserConstants.js",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/constants/StreamsConstants.js",
+		"/Users/AraLawrence/Documents/WDI/river/models/user.js",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/components/ShowViews/WikiImageShow.js",
+		"/Users/AraLawrence/Documents/WDI/river/app/index.html",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/components/ShowViews/GettyShow.js",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/components/ShowViews/BestsellerShow.js",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/components/ShowViews/EolShow.js",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/components/ShowViews/WikiShow.js",
+		"/Users/AraLawrence/Documents/WDI/river/index.js",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/constants/NameConstants.js",
+		"/Users/AraLawrence/Documents/WDI/river/.env",
+		"/Users/AraLawrence/Documents/WDI/river/models/provider.js",
+		"/Users/AraLawrence/Documents/WDI/river/models/stream.js",
+		"/Users/AraLawrence/Documents/WDI/river/models/node.js",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/components/GiphyShow.js",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/components/BookShow.js",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/components/EolShow.js",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/components/GettyShow.js",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/components/WikiShow.js",
+		"/Users/AraLawrence/Documents/WDI/river/.gitignore",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/app.js",
+		"/Users/AraLawrence/Documents/WDI/river/app/css/output.css.map",
+		"/Users/AraLawrence/Documents/WDI/river/public/js/app.js",
+		"/Users/AraLawrence/Documents/WDI/river/public/index.html",
+		"/Users/AraLawrence/Documents/WDI/river/node_modules/flux/dist/Flux.js",
+		"/Users/AraLawrence/Documents/WDI/river/package.json",
+		"/Users/AraLawrence/Documents/WDI/river/gulpfile.js",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/bundle.js",
+		"/Users/AraLawrence/Documents/WDI/river/app/js/constants/StreamActions.js",
+		"/Users/AraLawrence/Documents/WDI/WDI_SEA_04_HOMEWORK/AraLawrence/itunes/assets/js/components/ResultItem.js",
+		"/Users/AraLawrence/Documents/WDI/WDI_SEA_04_HOMEWORK/AraLawrence/itunes/assets/css/style.css"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 93.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"getInsta",
+			"getInstaImages",
+			"padding",
+			"sc-col",
+			"col-sc",
+			"sc-col",
+			"#CCCCCC",
+			"text-align",
+			"1",
+			"center",
+			"console.log(transport close)",
+			"transport close",
+			"border-radius",
+			"box",
+			"img",
+			"border-radius",
+			"box",
+			"img",
+			"features h3",
+			".option",
+			"text-align",
+			"button",
+			"hover",
+			"friendly",
+			"http",
+			"person",
+			"connection",
+			".use",
+			"\"use\"",
+			"max-width: 1000px",
+			"min-width: 1000",
+			"push-row",
+			"understand",
+			"features ",
+			"ul>",
+			"li>",
+			"</li>",
+			"block",
+			"sc-col-m-4",
+			"row",
+			"0px",
+			".column",
+			"'0px 0px 5px 0px rgba(209,201,209,1)",
+			"css",
+			"script",
+			"nav",
+			": \"",
+			"stripe.tokens.create",
+			"stripe",
+			"stripe.js",
+			"process.env",
+			"charge",
+			"^",
+			"/asdfimlost",
+			"http://www.",
+			"http://",
+			"[0-9]{4}",
+			"[0-9]{5}",
+			"3BFF7D",
+			"FF1CC9",
+			"3BFF7D",
+			"5E7BE8",
+			"E8810E",
+			"5E82E8",
+			"F1FFBE",
+			";",
+			"event.target.value",
+			"exclaim",
+			"red;",
+			"r",
+			"console",
+			"auto 100%",
+			"cover",
+			"projectTwo",
+			"mid-switch",
+			"right-switch",
+			"projectTwoSwitch",
+			"1",
+			"transition",
+			"List",
+			"streamItems",
+			"console",
+			"StreamsConst",
+			"UserAc",
+			"(0,0,0,0.75)",
+			"3",
+			"4p",
+			"console",
+			"16px",
+			"(0,0,0,0.75)",
+			"?",
+			"return",
+			".example",
+			";",
+			"}",
+			"{",
+			"console",
+			"wikiIm",
+			"req.user",
+			"session",
+			"href=\"\"",
+			"numbers",
+			"id=\"\"",
+			"d=\"\"",
+			"puts list",
+			"animation: slideInRight 1s",
+			"@include span-columns",
+			"span class=\"text-muted\">Something else</span>",
+			"Label",
+			"wrongFruit",
+			"()",
+			"user_guess",
+			"img",
+			":type",
+			"type",
+			"type:",
+			" Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.",
+			";",
+			"font",
+			"input",
+			">",
+			"rbenv",
+			">\n",
+			"darken-1",
+			"lighten-1",
+			"darken",
+			">\n",
+			"none"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": true,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 291.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "index.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"views/index.ejs"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 392.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"AbstractQuery"
+			]
+		],
+		"width": 580.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": true,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 291.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

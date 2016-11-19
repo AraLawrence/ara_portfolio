@@ -14,11 +14,11 @@ const Portfolio = React.createClass({
           <Headline data="My work" />
         </div>
         <div className="port-body">
-          <Link to="portfolio/opencar"><PortTab data={portContent.opencar} /></Link>
-          <Link to="portfolio/pennypost"><PortTab data={portContent.pennypost} /></Link>
+          <Link to="work/opencar"><PortTab data={portContent.opencar} /></Link>
+          <Link to="work/pennypost"><PortTab data={portContent.pennypost} /></Link>
           <div className="lower-port-body">
-            <Link to="portfolio/choicemap"><PortTab data={portContent.choicemap} /></Link>
-            <Link to="portfolio/science"><PortTab data={portContent.science} /></Link>
+            <Link to="work/choicemap"><PortTab data={portContent.choicemap} /></Link>
+            <Link to="work/science"><PortTab data={portContent.science} /></Link>
           </div>
         </div>
         <div className="port-img">

@@ -22,7 +22,7 @@ const PortPage = React.createClass({
             <h1><i className="fa fa-github-alt"></i><a href={this.props.data.links[3]} target="_blank">{this.props.data.links[2]}</a></h1>
           </div>
           <div className="arrow">
-            <Link to="/portfolio"><img src="./assets/images/arrow.png" alt="Outline of arrow"/></Link>
+            <Link to="/work"><img src="./assets/images/arrow.png" alt="Outline of arrow"/></Link>
           </div>
         </div>
       );
@@ -40,7 +40,7 @@ const PortPage = React.createClass({
             <h1><i className="fa fa-external-link"></i><a href={this.props.data.links[1]} target="_blank">{this.props.data.links[0]}</a></h1>
           </div>
           <div className="arrow">
-            <Link to="/portfolio"><img src="./assets/images/arrow.png" alt="Outline of arrow"/></Link>
+            <Link to="/work"><img src="./assets/images/arrow.png" alt="Outline of arrow"/></Link>
           </div>
         </div>
       );

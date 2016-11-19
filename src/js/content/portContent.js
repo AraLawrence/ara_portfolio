@@ -2,7 +2,7 @@ var content = {
   opencar: {
     tab: {title: "OpenCar", text: "Application Framework Engineer", color: "#adc700"},
     gif: "./assets/images/opencar.jpg",
-    text: "At INRIX - OpenCar I write tests and processes to exercise and build our HTML5 based in vehicle application platform in order to ensure that we ship efficiently and at a high standard of quality. A few accomplishments so far include quickly and skillfully creating an HTML5/CSS3/JavaScript web runtime validation tool, as well as building out automated testing technology to exercise the framework and ensure UI specification compliance. Particular technologies utilized include: ECMA2015, Cucumber, Selenium WebDriver, Mocha, Chai, Node.js, NPM. ",
+    text: "At INRIX - OpenCar I write tests and processes to exercise and build our HTML5 based in vehicle application platform in order to ensure that we ship efficiently and at a high standard of quality. A few accomplishments so far include quickly and skillfully creating an HTML5/CSS3/JavaScript web runtime validation tool, as well as building out automated testing technology to exercise the framework and ensure UI specification compliance. Particular technologies utilized include: ECMA2015, Cucumber, Selenium WebDriver, Node.js, Bash",
     links: ["opencar.com", "https://www.opencar.com/", "", ""]
   },
   pennypost: {

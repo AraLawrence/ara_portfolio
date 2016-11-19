@@ -5,7 +5,7 @@ import ReactCSSTransitionGroup from 'react-addons-css-transition-group'
 import Navbar from './components/Navbar.js';
 import IndexView from './components/IndexView.js';
 import About from './components/About.js';
-import Portfolio from './components/Portfolio.js';
+import Work from './components/Portfolio.js';
 import Contact from './components/Contact.js';
 import PortPage from './components/portfolioComponents/portPage.js';
 import portContent from './content/portContent.js';
@@ -61,11 +61,11 @@ render((
     <Route path="/" component={App}>
       <IndexRoute component={IndexView} />
       <Route path="about" component={About}/>
-      <Route path="portfolio" component={Portfolio}/>
-      <Route path="portfolio/opencar" component={Unvo}/>
-      <Route path="portfolio/pennypost" component={Lost}/>
-      <Route path="portfolio/choicemap" component={Story}/>
-      <Route path="portfolio/science" component={Clowder}/>
+      <Route path="work" component={Work}/>
+      <Route path="work/opencar" component={Unvo}/>
+      <Route path="work/pennypost" component={Lost}/>
+      <Route path="work/choicemap" component={Story}/>
+      <Route path="work/science" component={Clowder}/>
       <Route path="contact" component={Contact}/>
     </Route>
   </Router>
