@@ -1,0 +1,151 @@
+.navbar
+  width: 100%
+  position: relative
+  background-color: #D3A12B
+  -webkit-box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.50)
+  -moz-box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.50)
+  box-shadow: 0px 3px 4px 0px rgba(0,0,0,0.50)
+
+.links
+  display: block
+  width: 100%
+  height: 100%
+  text-align: center
+  a
+    text-decoration: none
+    font-family: Ostrich Sans
+    color: #4A4A4A
+    padding: 7px
+    // border: 2px solid #4A4A4A
+
+.logo
+  width: 135px
+  height: 100%
+  float: left
+  background-color: #85BDFD
+  text-align: center
+  img
+    width: 125px
+    height: 125px
+
+.svg-contain, .svg-contain-safari
+	position: relative
+	display: inline-block
+	background: transparent
+	width: 200px
+	height: 61px
+
+svg
+	position: absolute
+	top: 0
+	left: 0
+
+svg line
+	stroke-width: 6
+	stroke: #4A4A4A
+	fill: none
+	stroke-dasharray: 200
+	-webkit-transition: -webkit-transform .6s ease-out
+	transition: transform .6s ease-out
+
+.svg-contain:hover
+  cursor: pointer
+
+.svg-contain:hover svg line.top
+  -webkit-transform: translateX(400px)
+  -moz-transform: translateX(400px)
+  -o-transform: translateX(400px)
+  -ms-transform: translateX(400px)
+  transform: translateX(400px)
+
+.svg-contain:hover svg line.bottom
+  -webkit-transform: translateX(400px)
+  -moz-transform: translateX(400px)
+  -o-transform: translateX(400px)
+  -ms-transform: translateX(400px)
+  transform: translateX(400px)
+
+.svg-contain:hover svg line.left
+  -webkit-transform: translateY(400px)
+  transform: translateY(400px)
+
+.svg-contain:hover svg line.right
+  -webkit-transform: translateY(400px)
+  transform: translateY(400px)
+
+@media(min-width: 200px)
+  .navbar
+    height: 202px
+  .logo
+    display: none
+  .links
+    padding-top: 8px
+    .left
+      margin-right: 0
+      a
+        margin-left: -1px
+    .right
+      margin-left: 0
+      a
+        margin-left: -4px
+    .center
+      a
+        margin-left: -5px
+    a
+      font-size: 52px
+@media(min-width: 400px)
+  .navbar
+    height: 202px
+  .logo
+    display: block
+    img
+      margin-top: 34px
+@media(min-width: 535px)
+  .navbar
+    height: 185px
+    img
+      margin-top: 29px
+  .links
+    padding-top: 32px
+@media(min-width: 735px)
+  .navbar
+    height: 125px
+    img
+      margin-top: 0
+  .links
+    padding-top: 32px
+    .left
+      margin-right: 0
+      a
+        margin-left: -1px
+    .right
+      margin-left: 0
+      a
+        margin-left: -4px
+    .center
+      a
+        margin-left: -5px
+    a
+      font-size: 52px
+@media(min-width: 815px)
+  .links
+    padding-top: 32px
+    .left
+      margin-right: 40px
+      a
+        margin-left: -3px
+    .right
+      margin-left: 40px
+      a
+        margin-left: -4px
+    .center
+      a
+        margin-left: -5px
+    a
+      font-size: 52px
+@media(min-width: 1200px)
+  .links
+    .left
+      margin-right: 140px
+    .right
+      margin-left: 140px

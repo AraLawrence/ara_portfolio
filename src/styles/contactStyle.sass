@@ -1,0 +1,160 @@
+.contact-head
+  text-align: left
+  float: left
+  // leave for now in order to push body below
+  width: 100%
+  p
+    font-family: Adelle Basic
+    font-size: 48px
+    margin-top: -70px
+    margin-bottom: 0
+
+.contact-body
+  p
+    text-align: left
+    font-size: 36px
+    font-family: Raleway
+  h1
+    text-align: left
+    font-size: 62px
+    font-family: Adelle Basic
+  h2
+    font-family: Adelle Basic
+    font-size: 48px
+  form
+    margin: 0 auto
+    label
+      display: none
+  textarea
+    font-family: Raleway
+    font-size: 22px
+    color: #4A4A4A
+    vertical-align: bottom
+  .submit-btn
+    background-color: #85BDFD
+    color: #4A4A4A
+    border: 0px solid #979797
+    box-shadow: 0px 1px 2px 0px rgba(0,0,0,0.20)
+    box-sizing: border-box
+    padding: 1px
+    vertical-align: bottom
+    font-size: 72px
+    width: 200px
+    height: 140px
+  .activated:hover
+    cursor: pointer
+  .unsent
+    margin-top: 26px
+    font-family: Ostrich Sans
+  .sent
+    margin-top: 48px
+    font-family: Adelle Basic
+    font-size: 36px
+
+@keyframes sent
+  0%
+    opacity: 0
+  60%
+    opacity: 0
+  100%
+    opacity: 1
+
+.sent
+    animation-name: reset, sent
+    animation-duration: .5s
+    animation-timing-function: ease-in
+    animation-iteration-count: 1
+
+.sent.one
+  animation-delay: 0, 0
+.sent.two
+  animation-delay: 0, .2s
+.sent.three
+  animation-delay: 0, .3s
+.sent.four
+  animation-delay: 0, .4s
+.sent.five
+  animation-delay: 0, .5s
+
+.social-links
+  position: relative
+  margin-top: -30px
+  font-size: 48px
+  div
+    margin-left: -275px
+    i
+      padding: 20px
+  span
+    position: absolute
+    top: 50%
+    margin-top: 13px
+    font-size: 20px
+    font-family: Raleway
+  i
+    color: #4A4A4A
+    padding-left: 40px
+    padding-right: 40px
+
+@media(min-width: 200px)
+  .contact-head
+    p
+      margin-top: 0
+      margin-bottom: 20px
+  .contact-body
+    h1
+      margin-top: 0
+    textarea
+      width: 290px
+      height: 134px
+    input[type=submit]
+      margin-left: 0
+      margin-top: 8px
+  .contact-img
+    position: relative
+    width: 100%
+    margin-top: -38px
+    margin-bottom: 24px
+    img
+      width: 180px
+      height: auto
+  .submit-btn
+    margin: 0 auto
+    margin-top: 10px
+
+@media(min-width: 600px)
+  .contact-head
+    p
+      margin-top: -50px
+      margin-bottom: 0
+  .contact-body
+    h1
+      margin-top: -10px
+    textarea
+      width: 500px
+      height: 134px
+    input[type=submit]
+      margin-top: 0
+      margin-left: 10px
+@media(min-width: 900px)
+  form
+    width: 800px
+  textarea
+    margin-left: -94px
+  .submit-btn
+    margin-top: 0
+    float: right
+  .contact-img
+    position: absolute
+    margin-top: 0
+    margin-bottom: 0
+    top: 29%
+    left: calc(96% - 100px)
+    width: 100px
+    img
+      width: 100%
+      height: auto
+@media(min-width: 1050px)
+  .contact-img
+    top: 21%
+    left: calc(96% - 180px)
+    width: 180px
