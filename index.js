@@ -1,44 +1,43 @@
-var express = require('express');
-var path = require('path');
-var bodyParser = require('body-parser');
-var nodemailer = require('nodemailer');
-var app = express();
-var port = process.env.PORT || 3000
+const express = require('express');
+const path = require('path');
+const bodyParser = require('body-parser');
+const nodemailer = require('nodemailer');
 
-app.use(express.static(path.join(__dirname, 'dest')));
-app.use(bodyParser.urlencoded({extended: false}));
+const app = express();
+const port = process.env.PORT || 3000;
 
-var transporter = nodemailer.createTransport({
+app.use(express.static(path.join(__dirname, 'dist')));
+app.use(bodyParser.urlencoded({ extended: false }));
+
+const transporter = nodemailer.createTransport({
   service: 'Mailgun',
   auth: {
-    user: "postmaster@mg.aralawrence.com",
-    pass: process.env.MAILGUN_PASS
-  }
+    user: 'postmaster@mg.aralawrence.com',
+    pass: process.env.MAILGUN_PASS,
+  },
 });
 
-app.post('/email', function(req, res) {
-    console.log(req.body);
+app.post('/email', (req, res) => {
+  const message = {
+    from: 'YourServer',
+    to: 'ara.e.lawrence@gmail.com',
+    subject: 'Message from portfolio site',
+    text: req.body.text,
+  };
 
-    var message = {
-      from: 'YourServer',
-      to: 'ara.e.lawrence@gmail.com',
-      subject: 'Message from portfolio site',
-      text: req.body.text
-    };
+  transporter.sendMail(message, (error, info) => {
+    if (error) {
+      console.log(error);
+    } else {
+      console.log(`Send: ${info.response}`);
+    }
+  });
 
-    transporter.sendMail(message, function(error, info){
-      if (error) {
-        console.log(error);
-      } else {
-        console.log('Sent: ' + info.response);
-      }
-    });
-
-    res.send("nothing to see here");
+  res.send('nothing to see here');
 });
 
-app.get('/*', function(req, res) {
-  res.sendFile(path.join(__dirname, 'dest/index.html'));
+app.get('/*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'dist/index.html'));
 });
 
 app.listen(port);
