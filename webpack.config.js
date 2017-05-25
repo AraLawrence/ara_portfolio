@@ -4,11 +4,11 @@ const envPaths = {
   prod: 'http://www.aralawrence.com/',
   stage: 'http://localhost:3000/',
   dev: '/dist/',
-}
+};
 
 module.exports = {
   devtool: 'cheap-module-source-map',
-  entry: './src/js/index.js',
+  entry: './src/js/index.jsx',
   output: {
     path: __dirname,
     filename: 'bundle.js',
@@ -24,7 +24,7 @@ module.exports = {
   module: {
     loaders: [
       {
-        test: /\.js$/,
+        test: /\.(jsx|js)$/,
         loaders: ['babel'],
         include: __dirname,
         exclude: /node_modules/,
@@ -40,5 +40,8 @@ module.exports = {
         test: /\.(ttf|eot|otf)$/, loader: 'file',
       },
     ],
+  },
+  resolve: {
+    extensions: ['', '.js', '.jsx'],
   },
 };

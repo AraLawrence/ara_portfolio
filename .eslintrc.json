@@ -7,5 +7,10 @@
     ],
     "rules": {
         "linebreak-style": ["error", "windows"]
+    },
+    {
+        "globals": {
+            "document": true
+        }
     }
 }
