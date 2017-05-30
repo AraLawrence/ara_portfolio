@@ -8,9 +8,7 @@
     "rules": {
         "linebreak-style": ["error", "windows"]
     },
-    {
-        "globals": {
-            "document": true
-        }
+    "env": {
+        "browser": 1
     }
 }

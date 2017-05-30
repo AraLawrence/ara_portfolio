@@ -8,7 +8,7 @@ import { string, shape } from 'prop-types';
 // Deprecated
 // import ReactCSSTransitionGroup from 'react-addons-css-transition-group';
 import Navbar from './components/Navbar';
-import IndexView from './components/IndexView';
+import HomeView from './components/HomeView';
 import About from './components/About';
 import Portfolio from './components/Portfolio';
 import Contact from './components/Contact';
@@ -19,7 +19,7 @@ import style from '../styles/mainStyle.sass';
 // App component to render at root
 const App = () => (
   <div style={style}>
-    <IndexView />
+    <HomeView />
   </div>
 );
 

@@ -1,8 +1,8 @@
 import React from 'react';
-import Headline from './Headline.js';
-import PortTab from './portfolioComponents/portTab.js';
+import Headline from './Headline';
+import PortTab from './portfolioComponents/portTab';
 import portContent from '../content/portContent';
-import { Link, Route, Redirect } from 'react-router-dom'
+import { Link, Route, Redirect } from 'react-router-dom';
 
 const pageStyle = require('../../styles/pageStyles.sass');
 const portStyle = require('../../styles/portStyle.sass');
@@ -10,7 +10,7 @@ const portStyle = require('../../styles/portStyle.sass');
 const Portfolio = ({ match }) => (
   <div style={ pageStyle, portStyle } className="page-body">
     <div className="port-head">
-      <Headline data="My work" />
+      <Headline text="My work" />
     </div>
     <div className="port-body">
       <Link to={`${match.url}/opencar`}><PortTab data={portContent.opencar} /></Link>
