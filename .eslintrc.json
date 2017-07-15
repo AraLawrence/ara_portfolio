@@ -5,9 +5,6 @@
         "jsx-a11y",
         "import"
     ],
-    "rules": {
-        "linebreak-style": ["error", "windows"]
-    },
     "env": {
         "browser": 1
     }
