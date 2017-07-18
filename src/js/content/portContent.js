@@ -2,7 +2,7 @@ const content = {
   opencar: {
     tab: { title: 'OpenCar', text: 'Application Framework Engineer', color: '#adc700' },
     gif: './assets/images/opencar.jpg',
-    text: 'At INRIX - OpenCar I write tests and processes to exercise and build our HTML5 based in vehicle application platform in order to ensure that we ship efficiently and at a high standard of quality. A few accomplishments so far include quickly and skillfully creating an HTML5/CSS3/JavaScript web runtime validation tool, as well as building out automated testing technology to exercise the framework and ensure UI specification compliance. Particular technologies utilized include: ECMA2015, Cucumber, Selenium WebDriver, Node.js, Bash',
+    text: 'On the OpenCar team at INRIX I write tests and processes to exercise and build our in vehicle infotainment platform in order to ensure that we ship efficiently and at a high standard of quality. This position has required me to take a great deal of responsibility in a fast-moving team, and a primary accomplishment so far has been architecting and building out an automated end-to-end testing framework capable of exercising the IVI platform on desktop simulators and embedded devices. Particular technologies utilized include: ECMA2015, Cucumber, Selenium WebDriver, Node.js, Bash.',
     link: { address: 'http://inrix.com/industries/automotive/', text: 'INRIX-automotive' },
   },
 
@@ -16,7 +16,7 @@ const content = {
   choicemap: {
     tab: { title: 'ChoiceMap', text: 'Collaborative work on frontend and API development', color: '#cccccc' },
     gif: './assets/images/choicemap.gif',
-    text: 'ChoiceMap first asked me to execute a rebuild of their website. For this I worked off of provided comps, and collaborated on some design aspects. I then built the website entirely using HTML/CSS and JavaScript. I was later asked to assist on some backend tasks for their app, wherein I gained significant experience in collaborating on API development.',
+    text: 'At ChoiceMap I work part time on frontend web development and back end services. I have gained significant experience there in remote collaboration, as well as prototyping and executing new features from the ground up. Particular technologies utilized include: HTML5/CSS3, JavaScript, Python, Django, Django REST Framework.',
     link: { address: 'http://choicemap.co/', text: 'choicemap.co' },
   },
 

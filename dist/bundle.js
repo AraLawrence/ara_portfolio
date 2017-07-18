@@ -25077,17 +25077,17 @@
 	        _react2.default.createElement(
 	          'p',
 	          null,
-	          'In my past I have held positions calling for a great deal of creativity and precision. As a web developer I employ these skills with an intent toward elegance in technology and design.'
+	          'In my past I have held many positions calling for a great deal of creativity and precision. As a web developer I employ these skills with an intent toward elegance in technology and design.'
 	        ),
 	        _react2.default.createElement(
 	          'p',
 	          null,
-	          'I am highly capable across the stack, and have experience with frameworks like Node, Rails, and Django. I also have aptitude in many modern JavaScript technologies, including Angular and React.'
+	          'I am highly capable across the stack, and have experience with several frameworks, including Node, Rails, and Django. I also have aptitude in many modern JavaScript technologies, and particular skills in test automation and behavior driven development.'
 	        ),
 	        _react2.default.createElement(
 	          'p',
 	          null,
-	          'Throughout my life I have always loved to create. Now I do that through code. If you have an exciting project and are looking for a driven full stack developer, I would love to hear from you.'
+	          'If you have an exciting project and are looking for a driven full stack developer, I would love to hear from you.'
 	        )
 	      )
 	    ),
@@ -25325,7 +25325,7 @@
 	  opencar: {
 	    tab: { title: 'OpenCar', text: 'Application Framework Engineer', color: '#adc700' },
 	    gif: './assets/images/opencar.jpg',
-	    text: 'At INRIX - OpenCar I write tests and processes to exercise and build our HTML5 based in vehicle application platform in order to ensure that we ship efficiently and at a high standard of quality. A few accomplishments so far include quickly and skillfully creating an HTML5/CSS3/JavaScript web runtime validation tool, as well as building out automated testing technology to exercise the framework and ensure UI specification compliance. Particular technologies utilized include: ECMA2015, Cucumber, Selenium WebDriver, Node.js, Bash',
+	    text: 'On the OpenCar team at INRIX I write tests and processes to exercise and build our in vehicle infotainment platform in order to ensure that we ship efficiently and at a high standard of quality. This position has required me to take a great deal of responsibility in a fast-moving team, and a primary accomplishment so far has been architecting and building out an automated end-to-end testing framework capable of exercising the IVI platform on desktop simulators and embedded devices. Particular technologies utilized include: ECMA2015, Cucumber, Selenium WebDriver, Node.js, Bash.',
 	    link: { address: 'http://inrix.com/industries/automotive/', text: 'INRIX-automotive' }
 	  },
 
@@ -25339,7 +25339,7 @@
 	  choicemap: {
 	    tab: { title: 'ChoiceMap', text: 'Collaborative work on frontend and API development', color: '#cccccc' },
 	    gif: './assets/images/choicemap.gif',
-	    text: 'ChoiceMap first asked me to execute a rebuild of their website. For this I worked off of provided comps, and collaborated on some design aspects. I then built the website entirely using HTML/CSS and JavaScript. I was later asked to assist on some backend tasks for their app, wherein I gained significant experience in collaborating on API development.',
+	    text: 'At ChoiceMap I work part time on frontend web development and back end services. I have gained significant experience there in remote collaboration, as well as prototyping and executing new features from the ground up. Particular technologies utilized include: HTML5/CSS3, JavaScript, Python, Django, Django REST Framework.',
 	    link: { address: 'http://choicemap.co/', text: 'choicemap.co' }
 	  },
 
@@ -25610,20 +25610,19 @@
 	            _react2.default.createElement(
 	              'a',
 	              { href: 'https://github.com/AraLawrence', target: '_blank', rel: 'noopener noreferrer' },
-	              _react2.default.createElement('i', { className: 'fa fa-github-alt' })
+	              _react2.default.createElement('img', { src: './assets/images/github.svg', alt: 'Github icon', className: 'git-link' })
 	            ),
 	            _react2.default.createElement(
 	              'a',
 	              { href: 'https://www.linkedin.com/in/aralawrence', target: '_blank', rel: 'noopener noreferrer' },
-	              _react2.default.createElement('i', { className: 'fa fa-linkedin' })
+	              _react2.default.createElement('img', { src: './assets/images/linkedin.svg', alt: 'Linkedin icon', className: 'git-link' })
 	            ),
 	            _react2.default.createElement(
 	              'div',
 	              null,
-	              _react2.default.createElement('i', { className: 'fa fa-envelope-o' }),
 	              _react2.default.createElement(
 	                'span',
-	                null,
+	                { className: 'contact-email' },
 	                'ara.e.lawrence@gmail.com'
 	              )
 	            )
@@ -25673,7 +25672,7 @@
 
 
 	// module
-	exports.push([module.id, ".contact-head {\n  text-align: left;\n  float: left;\n  width: 100%; }\n  .contact-head p {\n    font-family: Adelle Basic;\n    font-size: 48px;\n    margin-top: -70px;\n    margin-bottom: 0; }\n\n.contact-body p {\n  text-align: left;\n  font-size: 36px;\n  font-family: Raleway; }\n\n.contact-body h1 {\n  text-align: left;\n  font-size: 62px;\n  font-family: Adelle Basic; }\n\n.contact-body h2 {\n  font-family: Adelle Basic;\n  font-size: 48px; }\n\n.contact-body form {\n  margin: 0 auto; }\n  .contact-body form label {\n    display: none; }\n\n.contact-body textarea {\n  font-family: Raleway;\n  font-size: 22px;\n  color: #4A4A4A;\n  vertical-align: bottom; }\n\n.contact-body .submit-btn {\n  background-color: #85BDFD;\n  color: #4A4A4A;\n  border: 0px solid #979797;\n  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);\n  box-sizing: border-box;\n  padding: 1px;\n  vertical-align: bottom;\n  font-size: 72px;\n  width: 200px;\n  height: 140px; }\n\n.contact-body .activated:hover {\n  cursor: pointer; }\n\n.contact-body .unsent {\n  margin-top: 26px;\n  font-family: Ostrich Sans; }\n\n.contact-body .sent {\n  margin-top: 48px;\n  font-family: Adelle Basic;\n  font-size: 36px; }\n\n@keyframes sent {\n  0% {\n    opacity: 0; }\n  60% {\n    opacity: 0; }\n  100% {\n    opacity: 1; } }\n\n.sent {\n  animation-name: reset, sent;\n  animation-duration: .5s;\n  animation-timing-function: ease-in;\n  animation-iteration-count: 1; }\n\n.sent.one {\n  animation-delay: 0, 0; }\n\n.sent.two {\n  animation-delay: 0, .2s; }\n\n.sent.three {\n  animation-delay: 0, .3s; }\n\n.sent.four {\n  animation-delay: 0, .4s; }\n\n.sent.five {\n  animation-delay: 0, .5s; }\n\n.social-links {\n  position: relative;\n  margin-top: -30px;\n  font-size: 48px; }\n  .social-links div {\n    margin-left: -275px; }\n    .social-links div i {\n      padding: 20px; }\n  .social-links span {\n    position: absolute;\n    top: 50%;\n    margin-top: 13px;\n    font-size: 20px;\n    font-family: Raleway; }\n  .social-links i {\n    color: #4A4A4A;\n    padding-left: 40px;\n    padding-right: 40px; }\n\n@media (min-width: 200px) {\n  .contact-head p {\n    margin-top: 0;\n    margin-bottom: 20px; }\n  .contact-body h1 {\n    margin-top: 0; }\n  .contact-body textarea {\n    width: 290px;\n    height: 134px; }\n  .contact-body input[type=submit] {\n    margin-left: 0;\n    margin-top: 8px; }\n  .contact-img {\n    position: relative;\n    width: 100%;\n    margin-top: -38px;\n    margin-bottom: 24px; }\n    .contact-img img {\n      width: 180px;\n      height: auto; }\n  .submit-btn {\n    margin: 0 auto;\n    margin-top: 10px; } }\n\n@media (min-width: 600px) {\n  .contact-head p {\n    margin-top: -50px;\n    margin-bottom: 0; }\n  .contact-body h1 {\n    margin-top: -10px; }\n  .contact-body textarea {\n    width: 500px;\n    height: 134px; }\n  .contact-body input[type=submit] {\n    margin-top: 0;\n    margin-left: 10px; } }\n\n@media (min-width: 900px) {\n  form {\n    width: 800px; }\n  textarea {\n    margin-left: -94px; }\n  .submit-btn {\n    margin-top: 0;\n    float: right; }\n  .contact-img {\n    position: absolute;\n    margin-top: 0;\n    margin-bottom: 0;\n    top: 29%;\n    left: calc(96% - 100px);\n    width: 100px; }\n    .contact-img img {\n      width: 100%;\n      height: auto; } }\n\n@media (min-width: 1050px) {\n  .contact-img {\n    top: 21%;\n    left: calc(96% - 180px);\n    width: 180px; } }\n", ""]);
+	exports.push([module.id, ".contact-head {\n  text-align: left;\n  float: left;\n  width: 100%; }\n  .contact-head p {\n    font-family: Adelle Basic;\n    font-size: 48px;\n    margin-top: -70px;\n    margin-bottom: 0; }\n\n.contact-body p {\n  text-align: left;\n  font-size: 36px;\n  font-family: Raleway; }\n\n.contact-body h1 {\n  text-align: left;\n  font-size: 62px;\n  font-family: Adelle Basic; }\n\n.contact-body h2 {\n  font-family: Adelle Basic;\n  font-size: 48px; }\n\n.contact-body form {\n  margin: 0 auto; }\n  .contact-body form label {\n    display: none; }\n\n.contact-body textarea {\n  font-family: Raleway;\n  font-size: 22px;\n  color: #4A4A4A;\n  vertical-align: bottom; }\n\n.contact-body .submit-btn {\n  background-color: #85BDFD;\n  color: #4A4A4A;\n  border: 0px solid #979797;\n  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);\n  box-sizing: border-box;\n  padding: 1px;\n  vertical-align: bottom;\n  font-size: 72px;\n  width: 200px;\n  height: 140px; }\n\n.contact-body .activated:hover {\n  cursor: pointer; }\n\n.contact-body .unsent {\n  margin-top: 26px;\n  font-family: Ostrich Sans; }\n\n.contact-body .sent {\n  margin-top: 48px;\n  font-family: Adelle Basic;\n  font-size: 36px; }\n\n.git-link {\n  padding: 10px; }\n\n.contact-email {\n  padding-top: 35px;\n  padding-bottom: 15px; }\n\n@keyframes sent {\n  0% {\n    opacity: 0; }\n  60% {\n    opacity: 0; }\n  100% {\n    opacity: 1; } }\n\n.sent {\n  animation-name: reset, sent;\n  animation-duration: .5s;\n  animation-timing-function: ease-in;\n  animation-iteration-count: 1; }\n\n.sent.one {\n  animation-delay: 0, 0; }\n\n.sent.two {\n  animation-delay: 0, .2s; }\n\n.sent.three {\n  animation-delay: 0, .3s; }\n\n.sent.four {\n  animation-delay: 0, .4s; }\n\n.sent.five {\n  animation-delay: 0, .5s; }\n\n.social-links {\n  position: relative;\n  margin-top: -30px;\n  font-size: 48px; }\n  .social-links div {\n    margin-left: -275px; }\n    .social-links div i {\n      padding: 20px; }\n  .social-links span {\n    position: absolute;\n    top: 50%;\n    margin-top: 13px;\n    font-size: 20px;\n    font-family: Raleway; }\n  .social-links i {\n    color: #4A4A4A;\n    padding-left: 40px;\n    padding-right: 40px; }\n\n@media (min-width: 200px) {\n  .contact-head p {\n    margin-top: 0;\n    margin-bottom: 20px; }\n  .contact-body h1 {\n    margin-top: 0; }\n  .contact-body textarea {\n    width: 290px;\n    height: 134px; }\n  .contact-body input[type=submit] {\n    margin-left: 0;\n    margin-top: 8px; }\n  .contact-img {\n    position: relative;\n    width: 100%;\n    margin-top: -38px;\n    margin-bottom: 24px; }\n    .contact-img img {\n      width: 180px;\n      height: auto; }\n  .submit-btn {\n    margin: 0 auto;\n    margin-top: 10px; } }\n\n@media (min-width: 600px) {\n  .contact-head p {\n    margin-top: -50px;\n    margin-bottom: 0; }\n  .contact-body h1 {\n    margin-top: -10px; }\n  .contact-body textarea {\n    width: 500px;\n    height: 134px; }\n  .contact-body input[type=submit] {\n    margin-top: 0;\n    margin-left: 10px; } }\n\n@media (min-width: 900px) {\n  form {\n    width: 800px; }\n  textarea {\n    margin-left: -94px; }\n  .submit-btn {\n    margin-top: 0;\n    float: right; }\n  .contact-img {\n    position: absolute;\n    margin-top: 0;\n    margin-bottom: 0;\n    top: 29%;\n    left: calc(96% - 100px);\n    width: 100px; }\n    .contact-img img {\n      width: 100%;\n      height: auto; } }\n\n@media (min-width: 1050px) {\n  .contact-img {\n    top: 21%;\n    left: calc(96% - 180px);\n    width: 180px; } }\n", ""]);
 
 	// exports
 

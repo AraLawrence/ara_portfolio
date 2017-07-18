@@ -82,12 +82,14 @@ class Contact extends React.Component {
           <h2>You can also find me at these places:</h2>
           <div className="social-links">
             <a href="https://github.com/AraLawrence" target="_blank" rel="noopener noreferrer">
-              <i className="fa fa-github-alt" />
+              <img src="./assets/images/github.svg" alt="Github icon" className="git-link" />
             </a>
             <a href="https://www.linkedin.com/in/aralawrence" target="_blank" rel="noopener noreferrer">
-              <i className="fa fa-linkedin" />
+              <img src="./assets/images/linkedin.svg" alt="Linkedin icon" className="git-link" />
             </a>
-            <div><i className="fa fa-envelope-o" /><span>ara.e.lawrence@gmail.com</span></div>
+            <div>
+              <span className="contact-email">ara.e.lawrence@gmail.com</span>
+            </div>
           </div>
         </div>
       </div>
