@@ -2,7 +2,7 @@ const content = {
   opencar: {
     tab: { title: 'OpenCar', text: 'Application Framework Engineer', color: '#adc700' },
     gif: './assets/images/opencar.jpg',
-    text: 'On the OpenCar team at INRIX I write tests and processes to exercise and build our in vehicle infotainment platform in order to ensure that we ship efficiently and at a high standard of quality. This position has required me to take a great deal of responsibility in a fast-moving team, and a primary accomplishment so far has been architecting and building out an automated end-to-end testing framework capable of exercising the IVI platform on desktop simulators and embedded devices. Particular technologies utilized include: ECMA2015, Cucumber, Selenium WebDriver, Node.js, Bash.',
+    text: 'On the OpenCar team at INRIX I write tests and processes to exercise and build our in vehicle infotainment platform in order to ensure that we ship efficiently and at a high standard of quality. This position has required me to take a great deal of responsibility in a fast-moving team, and solve many fascinating problems around using web technologies in an in-vehicle context.  A primary accomplishment so far has been architecting and building out an automated end-to-end testing framework capable of exercising the IVI platform on desktop simulators and embedded devices. Particular technologies utilized include: ECMA2015, Cucumber, Selenium WebDriver, Node.js, Bash, Jenkins.',
     link: { address: 'http://inrix.com/industries/automotive/', text: 'INRIX-automotive' },
   },
 
