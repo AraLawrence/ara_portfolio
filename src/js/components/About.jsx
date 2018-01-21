@@ -11,15 +11,14 @@ const About = () => (
       </div>
       <div className="about-content">
         <p>In my past I have held many positions calling for a great
-        deal of creativity and precision. As a web developer I
+        deal of creativity and precision. As a QA engineer I
         employ these skills with an intent toward elegance
         in technology and design.</p>
-        <p>I am highly capable across the stack, and have experience with several
-        frameworks, including Node, Rails, and Django. I also have aptitude in many modern
-        JavaScript technologies, and particular skills in test automation and behavior
-        driven development.</p>
-        <p>If you have an exciting project and are looking for a
-        driven full stack developer, I would love to hear from you.</p>
+        <p> I have experience in JavaScript and Python, and a depth of experience
+        in automation, BDD testing technologies, and Node.js. I have a particular
+        interest in automated testing within mobile and embedded contexts, as well as
+        building actionable and efficient test infrastructure.</p>
+        <p> I communicate effectively, learn quickly, and love coding.</p>
       </div>
     </div>
     <div className="about-img">

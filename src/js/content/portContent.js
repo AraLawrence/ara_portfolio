@@ -2,7 +2,7 @@ const content = {
   opencar: {
     tab: { title: 'OpenCar', text: 'Application Framework Engineer', color: '#adc700' },
     gif: './assets/images/opencar.jpg',
-    text: 'On the OpenCar team at INRIX I write tests and processes to exercise and build our in vehicle infotainment platform in order to ensure that we ship efficiently and at a high standard of quality. This position has required me to take a great deal of responsibility in a fast-moving team, and solve many fascinating problems around using web technologies in an in-vehicle context.  A primary accomplishment so far has been architecting and building out an automated end-to-end testing framework capable of exercising the IVI platform on desktop simulators and embedded devices. Particular technologies utilized include: ECMA2015, Cucumber, Selenium WebDriver, Node.js, Bash, Jenkins.',
+    text: 'On the OpenCar team at INRIX I write tests and processes to exercise and build our in vehicle infotainment platform in order to ensure that we ship efficiently and at a high standard of quality. This position has required me to take a great deal of responsibility in a fast-moving team, and solve many fascinating problems around using web technologies in an in-vehicle context. A primary accomplishment so far has been architecting and building out an automated end-to-end testing framework capable of exercising our IVI platform on desktop simulators and embedded devices. Particular technologies utilized include: ECMA2015, Cucumber, Selenium, Node.js, Bash, Jenkins, Appium',
     link: { address: 'http://inrix.com/industries/automotive/', text: 'INRIX-automotive' },
   },
 
@@ -16,7 +16,7 @@ const content = {
   choicemap: {
     tab: { title: 'ChoiceMap', text: 'Collaborative work on frontend and API development', color: '#cccccc' },
     gif: './assets/images/choicemap.gif',
-    text: 'At ChoiceMap I work part time on frontend web development and back end services. I have gained significant experience there in remote collaboration, as well as prototyping and executing new features from the ground up. Particular technologies utilized include: HTML5/CSS3, JavaScript, Python, Django, Django REST Framework.',
+    text: 'At ChoiceMap I worked part time on frontend web development and back end services. I gained significant experience there in remote collaboration, as well as prototyping and executing new features from the ground up. Particular technologies utilized include: HTML5/CSS3, JavaScript, React, Python, Django, Django REST Framework.',
     link: { address: 'http://choicemap.co/', text: 'choicemap.co' },
   },
 

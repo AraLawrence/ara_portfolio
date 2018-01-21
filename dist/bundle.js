@@ -24897,17 +24897,12 @@
 	      _react2.default.createElement(
 	        'h2',
 	        null,
-	        'I am a web developer'
+	        'I am a QA Engineer'
 	      ),
 	      _react2.default.createElement(
-	        'p',
+	        'h2',
 	        null,
-	        'resolved toward elegant solutions and delightful experiences'
-	      ),
-	      _react2.default.createElement(
-	        'h1',
-	        null,
-	        'I\'d love to create something with you'
+	        'Resolved toward actionable and efficient tests and test infrastructure'
 	      )
 	    )
 	  );
@@ -25077,17 +25072,17 @@
 	        _react2.default.createElement(
 	          'p',
 	          null,
-	          'In my past I have held many positions calling for a great deal of creativity and precision. As a web developer I employ these skills with an intent toward elegance in technology and design.'
+	          'In my past I have held many positions calling for a great deal of creativity and precision. As a QA engineer I employ these skills with an intent toward elegance in technology and design.'
 	        ),
 	        _react2.default.createElement(
 	          'p',
 	          null,
-	          'I am highly capable across the stack, and have experience with several frameworks, including Node, Rails, and Django. I also have aptitude in many modern JavaScript technologies, and particular skills in test automation and behavior driven development.'
+	          ' I have experience in JavaScript and Python, and a depth of experience in automation, BDD testing technologies, and Node.js. I have a particular interest in automated testing within mobile and embedded contexts, as well as building actionable and efficient test infrastructure.'
 	        ),
 	        _react2.default.createElement(
 	          'p',
 	          null,
-	          'If you have an exciting project and are looking for a driven full stack developer, I would love to hear from you.'
+	          ' I communicate effectively, learn quickly, and love coding.'
 	        )
 	      )
 	    ),
@@ -25325,7 +25320,7 @@
 	  opencar: {
 	    tab: { title: 'OpenCar', text: 'Application Framework Engineer', color: '#adc700' },
 	    gif: './assets/images/opencar.jpg',
-	    text: 'On the OpenCar team at INRIX I write tests and processes to exercise and build our in vehicle infotainment platform in order to ensure that we ship efficiently and at a high standard of quality. This position has required me to take a great deal of responsibility in a fast-moving team, and solve many fascinating problems around using web technologies in an in-vehicle context.  A primary accomplishment so far has been architecting and building out an automated end-to-end testing framework capable of exercising the IVI platform on desktop simulators and embedded devices. Particular technologies utilized include: ECMA2015, Cucumber, Selenium WebDriver, Node.js, Bash, Jenkins.',
+	    text: 'On the OpenCar team at INRIX I write tests and processes to exercise and build our in vehicle infotainment platform in order to ensure that we ship efficiently and at a high standard of quality. This position has required me to take a great deal of responsibility in a fast-moving team, and solve many fascinating problems around using web technologies in an in-vehicle context. A primary accomplishment so far has been architecting and building out an automated end-to-end testing framework capable of exercising our IVI platform on desktop simulators and embedded devices. Particular technologies utilized include: ECMA2015, Cucumber, Selenium, Node.js, Bash, Jenkins, Appium',
 	    link: { address: 'http://inrix.com/industries/automotive/', text: 'INRIX-automotive' }
 	  },
 
@@ -25339,7 +25334,7 @@
 	  choicemap: {
 	    tab: { title: 'ChoiceMap', text: 'Collaborative work on frontend and API development', color: '#cccccc' },
 	    gif: './assets/images/choicemap.gif',
-	    text: 'At ChoiceMap I work part time on frontend web development and back end services. I have gained significant experience there in remote collaboration, as well as prototyping and executing new features from the ground up. Particular technologies utilized include: HTML5/CSS3, JavaScript, Python, Django, Django REST Framework.',
+	    text: 'At ChoiceMap I worked part time on frontend web development and back end services. I gained significant experience there in remote collaboration, as well as prototyping and executing new features from the ground up. Particular technologies utilized include: HTML5/CSS3, JavaScript, React, Python, Django, Django REST Framework.',
 	    link: { address: 'http://choicemap.co/', text: 'choicemap.co' }
 	  },
 
